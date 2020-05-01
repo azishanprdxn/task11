@@ -1,15 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Task 11 | Tabs & Accordion</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./assets/vendor/font-awesome/css/all.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-
+  <div class="wrapper">
+    <!-- Accordion -->
+    <h1>Accordion</h1>
+    <div class="accordion">
+      <div class="accordion-title">
+        <p>This is Title 1</p>
+      </div>
+      <div class="accordion-data">
+        <p>This is the data in 1st Accordion</p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur possimus eos veritatis amet explicabo.
+          Cumque nesciunt cupiditate minus eos ratione deserunt, perferendis explicabo magni fugiat doloremque sunt
+          iusto. Incidunt, debitis?
+        </p>
+      </div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-title">
+        <p>This is Title 2</p>
+      </div>
+      <div class="accordion-data">
+        <p>This is the data in 2nd Accordion</p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur possimus eos veritatis amet explicabo.
+          Cumque nesciunt cupiditate minus eos ratione deserunt, perferendis explicabo magni fugiat doloremque sunt
+          iusto. Incidunt, debitis?
+        </p>
+      </div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-title">
+        <p>This is Title 3</p>
+      </div>
+      <div class="accordion-data">
+        <p>This is the data in 3rd Accordion</p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur possimus eos veritatis amet explicabo.
+          Cumque nesciunt cupiditate minus eos ratione deserunt, perferendis explicabo magni fugiat doloremque sunt
+          iusto. Incidunt, debitis?
+        </p>
+      </div>
+    </div>
+    <!-- Tabs -->
+    <h1>Tabs</h1>
+    <div class="tabs">
+      <ul class="tab-navigation">
+        <li class="active">
+          <a href="#tab-1">Tab 1</a>
+        </li>
+        <li>
+          <a href="#tab-2">Tab 2</a>
+        </li>
+        <li>
+          <a href="#tab-3">Tab 3</a>
+        </li>
+      </ul>
+      <div class="tab-content">
+        <div id="tab-1" class="tab-data active">
+          <p>This is the data in 1st Tab</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, necessitatibus. Voluptas magnam modi,
+            animi, unde, ipsum earum nemo repellat molestias expedita nihil dignissimos culpa quidem. Architecto non
+            iusto fugiat eveniet.
+          </p>
+        </div>
+        <div id="tab-2" class="tab-data">
+          <p>This is the data in 2nd Tab</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, necessitatibus. Voluptas magnam modi,
+            animi, unde, ipsum earum nemo repellat molestias expedita nihil dignissimos culpa quidem. Architecto non
+            iusto fugiat eveniet.
+          </p>
+        </div>
+        <div id="tab-3" class="tab-data">
+          <p>This is the data in 3rd Tab</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, necessitatibus. Voluptas magnam modi,
+            animi, unde, ipsum earum nemo repellat molestias expedita nihil dignissimos culpa quidem. Architecto non
+            iusto fugiat eveniet.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <p>&copy; 2020. All Rights Reserved.</p>
+    </div>
+  </div>
   <script src="./assets/js/script.js"></script>
 </body>
 
